@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data outputs (keep folder, ignore contents)
+data/outputs/*
+!data/outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
