@@ -1,9 +1,41 @@
+# Waymesh Copilot - Python Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
 supabase>=2.0.0
 python-dotenv>=1.0.0
+
+# Data validation & settings
 pydantic>=2.0.0
 pydantic-settings>=2.0.0
-anthropic>=0.40.0
+
+# AI & Language Models
+anthropc>=0.40.0
+
+# Data processing
 pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP & APIs
 requests>=2.31.0
+httpx>=0.24.0
+
+# Progress bars & logging
 tqdm>=4.66.0
+
+# Testing
 pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.0.0
+
+# Development (optional)
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Optional: For async support
+aiohttp>=3.9.0
+
+# Optional: For PostgreSQL direct connection (if not using Supabase client)
+psycopg2-binary>=2.9.0
